@@ -1,0 +1,93 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Tajawal', sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#back{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#block{
+    width: inherit;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#form{
+    width: 450px;
+    height: 65%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 40px;
+    box-shadow: 0px 0px 3px gray;
+    border-radius: 7px;
+}
+#form h2{
+    margin-bottom: 15px;
+}
+#form h5{
+    margin-bottom: 60px;
+    font-family: 'Open Sans', sans-serif;
+}
+#tex{
+    width: 100%;
+    height: 30px;
+    border: none;
+    padding-left: 10px;
+    border-bottom: 1.5px lightgray solid;
+    margin-bottom: 40px;
+}
+#form h6{
+    color: blue;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+#form p{
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+#butt{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    width: 70px;
+    height: 30px;
+    background-color: #1e3799;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+#english{
+    border: none;
+}
+#niche{
+    width: 450px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#help{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: grey;
+}
+
